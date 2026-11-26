@@ -12,7 +12,7 @@ Run these commands in the terminal:
 pwd
 mkdir P1_to_P13
 cd P1_to_P13
-mkdir style css
+mkdir css
 touch index.html
 touch style.css
 ls
