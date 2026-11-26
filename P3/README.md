@@ -9,11 +9,15 @@ To create a new feature branch, make a small change, and push the branch to GitH
 Run these commands from the project repository:
 
 ```bash
-git switch -c feature/my-change
+git branch
+git branch feature-about
+git checkout feature-about
 git status
 git add .
-git commit -m "Add a portfolio change"
-git push -u origin feature/my-change
+git commit -m "Added about section"
+git checkout main
+git merge feature-about
+git branch
 ```
 
 ## Description
