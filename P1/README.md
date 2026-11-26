@@ -14,11 +14,9 @@ mkdir P1_to_P13
 cd P1_to_P13
 mkdir css
 touch index.html
-touch style.css
+touch css/style.css
 ls
-cd css
-pwd
-cd ..
+ls css
 ```
 
 ## Description
@@ -26,11 +24,11 @@ cd ..
 - `pwd` displays the current working directory.
 - `mkdir P1_to_P13` creates a new folder named P1_to_P13.
 - `cd P1_to_P13` moves inside the P1_to_P13 folder.
-- `mkdir images css` creates two folders named images and css.
+- `mkdir css` creates two folders named images and css.
+- `touch index.html` creates an HTML file.
+- `touch css/style.css` creates a CSS file inside the CSS folder.
 - `ls` shows the contents of the current folder.
-- `cd css` moves inside the css folder.
-- `pwd` displays the current location in the terminal.
-- `cd ..` moves one folder back to P1_to_P13.
+- `ls css` displays the contents of the CSS folder.
 
 ## Result
 
