@@ -20,9 +20,14 @@ git log --oneline
 Create an annotated version tag after the P1–P4 practical work is available locally:
 
 ```bash
-git tag -a v1.0.0 -m "First version of Web Development Lab"
+touch README.md
+git add .
+git commit -m "Add README"
+git remote -v
+git push origin main
+git tag v1.0
 git tag
-git push origin v1.0.0
+git push origin v1.0
 ```
 
 To inspect the created tag:
