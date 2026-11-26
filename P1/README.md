@@ -12,7 +12,7 @@ Run these commands in the terminal:
 pwd
 mkdir P1_to_P13
 cd P1_to_P13
-mkdir images css
+mkdir style css
 ls
 cd css
 pwd
