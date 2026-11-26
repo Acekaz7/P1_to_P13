@@ -23,7 +23,7 @@ Create an annotated version tag after the P1–P4 practical work is available lo
 touch README.md
 git add .
 git commit -m "Added README"
-git remote set-url origin https://github.com/Acekaz7/myPortfolio.git
+git remote set-url origin https://github.com/Acekaz7/P1_to_P13.git
 git remote -v
 git branch -M main
 git push -u origin main
