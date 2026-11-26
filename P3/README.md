@@ -22,11 +22,15 @@ git branch
 
 ## Description
 
-- `git switch -c feature/my-change` creates a new branch and switches to it.
+- `git branch` displays all the existing branches.
+- `git branch feature-about` creates a new branch named feature-about.
+- `git checkout feature-about` switches to the feature-about branch.
 - `git status` displays the current changes in the project.
 - `git add .` stages all modified and new files.
-- `git commit -m "Add a portfolio change"` saves the changes in the new branch.
-- `git push -u origin feature/my-change` uploads the feature branch to GitHub.
+- `git commit -m "Added about section"` saves the changes in the feature-about branch.
+- `git checkout main` switches back to the main branch.
+- `git merge feature-about` merges the changes from feature-about into the main branch.
+- `git branch` displays all existing branches to verify the changes.
 
 ## Result
 
