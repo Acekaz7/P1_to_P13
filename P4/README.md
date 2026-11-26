@@ -21,7 +21,6 @@ Create an annotated version tag after the P1–P4 practical work is available lo
 
 ```bash
 touch README.md
-code .
 git add .
 git commit -m "Added README"
 git remote set-url origin https://github.com/Acekaz7/myPortfolio.git
