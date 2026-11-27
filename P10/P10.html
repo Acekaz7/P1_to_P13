@@ -1,62 +1,29 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Portfolio</title>
-
     <style>
-        body {
-            font-family: Arial;
-            
-        }
-
-        header {
-            background-color: black;
+        body { font-family: Arial; }
+        header, footer {
+            background: black;
             color: white;
             padding: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
-        nav {
-            display: flex;
-            gap: 20px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-
-        main {
-            padding: 50px;
-            text-align: center;
-            min-height: 300px;
-        }
-
-        footer {
-            background-color: black;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        @media (max-width: 600px) {
-            header, footer {
-                flex-direction: column;
-                gap: 15px;
-            }
+        nav { display: flex; gap: 20px; }
+        nav a { color: white; }
+        main { padding: 50px; text-align: center; min-height: 300px; }
+        @media(max-width: 600px) {
+            header, footer { flex-direction: column; gap: 15px; }
         }
     </style>
 </head>
-
 <body>
-
     <header>
         <h2>My Portfolio</h2>
-
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -64,16 +31,13 @@
             <a href="#">Contact</a>
         </nav>
     </header>
-
     <main>
         <h1>Welcome to My Portfolio</h1>
         <p>I am a web development student.</p>
     </main>
-
     <footer>
         <p>© 2026 My Portfolio</p>
         <p>Email: example@gmail.com</p>
     </footer>
-
 </body>
 </html>
