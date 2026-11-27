@@ -1,27 +1,12 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Flexbox Layout</title>
-
     <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background-color: lightgray;
-        }
-
-        nav {
-            background-color: black;
-            padding: 15px;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-
+        body { font-family: Arial; margin: 0; background: lightgray; }
+        nav { display: flex; justify-content: space-around; background: black; padding: 15px; }
+        nav a { color: white; text-decoration: none; }
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -29,54 +14,24 @@
             gap: 20px;
             padding: 20px;
         }
-
-        .card {
-            background-color: white;
-            width: 200px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        @media (max-width: 600px) {
-            nav {
-                flex-direction: column;
-                text-align: center;
-                gap: 10px;
-            }
-
-            .container {
-                flex-direction: column;
-                align-items: center;
-            }
+        .card { background: white; width: 200px; padding: 20px; text-align: center; }
+        @media(max-width: 600px) {
+            nav, .container { flex-direction: column; align-items: center; }
+            nav { gap: 10px; }
         }
     </style>
 </head>
-
 <body>
-
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </nav>
-
     <div class="container">
-        <div class="card">
-            <h3>Card 1</h3>
-            <p>First card</p>
-        </div>
-
-        <div class="card">
-            <h3>Card 2</h3>
-            <p>Second card</p>
-        </div>
-
-        <div class="card">
-            <h3>Card 3</h3>
-            <p>Third card</p>
-        </div>
+        <div class="card"><h3>Card 1</h3><p>First card</p></div>
+        <div class="card"><h3>Card 2</h3><p>Second card</p></div>
+        <div class="card"><h3>Card 3</h3><p>Third card</p></div>
     </div>
-
 </body>
 </html>
