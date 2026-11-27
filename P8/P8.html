@@ -1,43 +1,16 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Sticky Navbar</title>
-
     <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background-color: lightgray;
-        }
-
-        nav {
-            background-color: black;
-            padding: 15px;
-            position: sticky;
-            top: 0;
-        }
-
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-        }
-
-        .card {
-            width: 300px;
-            margin: 50px auto;
-            background-color: white;
-            position: relative;
-        }
-
-        .card img {
-            width: 100%;
-        }
-
+        body { font-family: Arial; background: lightgray; }
+        nav { background: black; padding: 15px; }
+        nav a { color: white; margin: 15px; }
+        .card { width: 300px; margin: 50px auto; }
+        img { width: 100%; }
         .overlay {
-            position: absolute;
-            bottom: 0;
-            background-color: black;
+            background: black;
             color: white;
             width: 100%;
             text-align: center;
@@ -45,23 +18,18 @@
         }
     </style>
 </head>
-
 <body>
-
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
     </nav>
-
     <div class="card">
         <img src="https://via.placeholder.com/300x200" alt="Card image">
-
         <div class="overlay">
             <h3>My Card</h3>
             <p>Welcome to my website</p>
         </div>
     </div>
-
 </body>
 </html>
